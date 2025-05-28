@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Banco de Formosa MERN",
+    "desc": "Aplicacion para el Banco de la ciudad de Formosa",
+    "image": "bancofsa",
+    "category": "mern",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    }
+  },
+  {
+    "name": "App Casapan",
+    "desc": "Aplicacion fullstack para la panaderia Casapan con html, css y javascript.",
+    "image": "casapan",
+    "category": "mern",
+    "links": {
+      "view": "https://flipkartwebs.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/flipkart-mern"
+    }
+  },
+  {
+    "name": "Formoturist",
+    "desc": "Pagina web realizada para el ministerio de turismo de la ciudad de formosa.",
+    "image": "turismo",
+    "category": "mern",
+    "links": {
+      "view": "https://resumegenx.netlify.app/",
+      "code": "https://github.com/jigar-sable/resumegen"
+    }
+  },
+  {
+    "name": "Control de Stock",
+    "desc": "aplicacion para el control de stock de mercaderia para el supermercado formoseño 'Appa'",
+    "image": "appa",
+    "category": "mern",
+    "links": {
+      "view": "https://reactjsprojects.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/React-Projects"
+    }
+  },
+  {
+    "name": "Web Hospital Interdristital Evita",
+    "desc": "Pagina web full stack para el hospital Evita",
+    "image": "hospevita",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
+      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+    }
+  },
+  {
+    "name": "familia Bercomat Website",
+    "desc": "Pagina web responsive de la constructora Bercomat",
+    "image": "bercomat",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+    }
+  }
+]
