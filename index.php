@@ -1,3 +1,25 @@
+<?php
+session_start();
+require_once './login/conexion.php';
+$resultado = $conexion->query("SELECT * FROM informacion_personal");
+
+// Obtener resultado
+$descripcion = "";
+$correo = "";
+$sede = "";
+if ($resultado->num_rows > 0) {
+    $fila = $resultado->fetch_assoc();
+    $descripcion = $fila["descripcion"];
+    $correo = $fila["correo_personal"];
+    $sede = $fila["sede"];
+} else {
+    $descripcion = "descripcion no redactada";
+    $correo = "correo no establecido";
+    $sede = "sede no establecida";
+}
+
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,13 +104,15 @@
     <div class="content">
         <h3>Soy Benjamin</h3>
         <span class="tag"> Desarrollador web</span>
-        
-        <p>Programador especializado en crear soluciones digitales completas, desde el diseño de interfaces intuitivas hasta la lógica y la arquitectura que las hace funcionar. Combinando creatividad y funcionalidad para desarrollar plataformas escalables, modernas y fáciles de usar. Me apasiona convertir ideas en experiencias digitales reales, limpias y accesibles. </p>
+        <!-- la siguiente linea es para incrustar un parrafo  que es le resultado de una consulta sql-->
+        <p>Nombre del cliente: <?php echo htmlspecialchars($descripcion); ?></p>
+        <!-- <p>Programador especializado en crear soluciones digitales completas, desde el diseño de interfaces intuitivas hasta la lógica y la arquitectura que las hace funcionar. Combinando creatividad y funcionalidad para desarrollar plataformas escalables, modernas y fáciles de usar. Me apasiona convertir ideas en experiencias digitales reales, limpias y accesibles. </p> -->
         
         <div class="box-container">
             <div class="box">
-              <p><span> Email : </span> benjamingz@gmail.com</p>
-              <p><span> Sede: </span> Formosa, Argentina</p>
+                <!-- en esta parte traemos el email y la sede desde la tabla informacion personal -->
+              <p><span> Email : </span> <?php echo htmlspecialchars($correo); ?></p>
+              <p><span> Sede: </span> <?php echo htmlspecialchars($sede); ?></p>
             </div>
         </div>
         

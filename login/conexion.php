@@ -1,5 +1,6 @@
 <?php
-$conexion = new mysqli("localhost", "root", "", "portfolio");
+//en mi caso tuve que  poner "root" como contraseña
+$conexion = new mysqli("localhost", "root", "root", "portfolio");
 if ($conexion->connect_error) {
     die("Conexión fallida: " . $conexion->connect_error);
 }

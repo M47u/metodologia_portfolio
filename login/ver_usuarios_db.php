@@ -16,7 +16,8 @@ $resultado = $conexion->query("SELECT * FROM usuarios ORDER BY creado_en DESC");
     <div class="container mt-5">
         <h2 class="mb-4">Usuarios Registrados en la Base de Datos</h2>
         <a href="../login/formulario_db.php" class="btn btn-primary mb-3">← Registrar otro usuario</a>
-        <a href="../index.html" class="btn btn-primary mb-3">Ir al Portfolio 💼</a>
+        <!-- tuve que cambiar el index a index.php -->
+        <a href="../index.php" class="btn btn-primary mb-3">Ir al Portfolio 💼</a> 
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
                 <tr>
