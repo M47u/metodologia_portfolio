@@ -3,10 +3,8 @@
 //Quedaria así: ("localhost", "root", "", "portfolio", port:"3307");
 
 //en mi caso tuve que  poner "root" como contraseña
-$conexion = new mysqli("localhost", "root", "root", "portfolio");
-if ($conexion->connect_error) {
-    die("Error de conexión: " . $conexion->connect_error);
-}
+session_start();
+require_once '../login/conexion.php';
 
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
@@ -18,7 +16,7 @@ $stmt = $conexion->prepare($sql);
 $stmt->bind_param("ssss", $nombre, $email, $telefono, $mensaje);
 
 if ($stmt->execute()) {
-    echo "<script>alert('Mensaje enviado correctamente'); window.location.href = '../index.html';</script>";
+    echo "<script>alert('Mensaje enviado correctamente'); window.location.href = '../index.php';</script>";
     exit;
 } else {
     echo "<script>alert('Error al enviar el mensaje');</script>";
