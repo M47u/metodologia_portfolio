@@ -72,38 +72,7 @@
   </div>
 </div>
   </section>
-
-  <!-- pie de pagina -->
-  <!-- <section class="footer" id="info">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Benjamin | Portfolio</h3>
-          <p> Gracias por visitar mi pagina personal. Contactame por redes sociales. <br/> <br/> 🚀 Siempre en movimiento. ¡Hablemos por el chat!</p>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+54 3704 941573</p>
-          <p> <i class="fas fa-envelope"></i>benjamingz@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Formosa, Argentina</p>
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
-          </div>
-      </div>
-  </div>
-
-  <h1 class="credit">Diseñado por <i class="fa fa-heart pulse"></i> <a href="https://www.linkedin.com/in/jigar-sable"> Equipo de Benjamin</a></h1>
-  </section> -->
-  <!-- pie de pagina -->
-
-
+  
   <!-- scroll vuelta arriba -->
   <a href="#administracion" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
   <!-- scroll vuelta arriba -->

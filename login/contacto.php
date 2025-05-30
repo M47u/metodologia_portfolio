@@ -1,8 +1,4 @@
 <?php
-//En caso de que hayas cambiado el puerto del Xampp, hay que aclararlo en los parametros
-//Quedaria así: ("localhost", "root", "", "portfolio", port:"3307");
-
-//en mi caso tuve que  poner "root" como contraseña
 session_start();
 require_once '../login/conexion.php';
 

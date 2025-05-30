@@ -30,9 +30,6 @@ if ($resultado->num_rows > 0) {
     <meta name="description" content="Bienvenidos al portfolio de Benja. Full-Stack Web Developer and Android App Developer" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- <link rel="stylesheet" href="assets/css/style-contacto.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
@@ -135,13 +132,6 @@ if ($resultado->num_rows > 0) {
     <div class="container">
           <div class="row" id="skillsContainer">
 
-            <!-- <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
-                <span>AdobeXD</span>
-              </div>
-            </div>-->
-
       </div>
 </div>
   </section>
@@ -163,16 +153,6 @@ if ($resultado->num_rows > 0) {
         </div>
     </div>
 
-    <!-- <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>HSC Science | Informatic Practices</h3>
-      <p>Shri  L. G. Haria Multipurpose School | CBSE</p>
-      <h4>2018-2020 | Completed</h4>
-      </div>
-    </div> -->
   </section>
   <!-- educacion -->
 
@@ -184,12 +164,6 @@ if ($resultado->num_rows > 0) {
 
     <div class="box-container">
     </div>
-
-    <!-- <div class="viewall">
-      <a href="/projects" class="btn"><span> ver todos </span>
-        <i class="fas fa-arrow-right"></i>
-      </a>
-    </div> -->
 
   </section>
   <!--proyectos -->
@@ -249,30 +223,10 @@ if ($resultado->num_rows > 0) {
     </div>
   </div>
 
-  <!-- <div class="morebtn">
-    <a href="/experience" class="btn"><span> ver más </span>
-      <i class="fas fa-arrow-right"></i>
-  </a>
-  </div> -->
-
 </div>
 
   </section>
   <!-- Experiencias -->
-
-  <!-- contactos -->
-  <!-- <section class="contact-section" id="contact">
-    <h1 class="heading"><i class="fas fa-graduation-cap"></i> Contacto <span>Directo</span></h1>
-    
-    Formulario -->
-    <!-- <div class="contact-form">
-      <form>
-        <input type="text" placeholder="Nombre" required>
-        <input type="email" placeholder="Correo Electrónico" required>
-        <textarea rows="5" placeholder="Escribí tu mensaje..." required></textarea>
-        <button type="submit" class="btn-submit">Enviar Mensaje</button>
-      </form>
-    </div> -->
 
   <!-- contacto -->
    <!-- contact section starts -->
