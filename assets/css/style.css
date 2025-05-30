@@ -1170,6 +1170,32 @@ form .mensajeria {
   letter-spacing: 0.1rem;
 }
 
+form .mensajeria2 {
+  display: flex;
+  float: center;
+  flex-direction: row-reverse;
+}
+
+.mensajeria2{
+  outline: none;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  border-color: black;
+  transition: 0.3s ease;
+  color: red;
+  font-family: "Nunito", sans-serif;
+}
+
+.mensajeria2 button {
+  font-weight: 100;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+body.dark-mode .mensajeria2{
+  color: red;
+}
 
 /* contact section media queries starts */
 @media (max-width: 900px) {

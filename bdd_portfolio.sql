@@ -1,4 +1,3 @@
-
 CREATE DATABASE IF NOT EXISTS portfolio;
 USE portfolio;
 
@@ -21,7 +20,7 @@ CREATE TABLE IF NOT EXISTS mensajes (
 
 CREATE TABLE IF NOT EXISTS informacion_personal (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    descripcion VARCHAR(255),
+    descripcion TEXT,
     correo_personal VARCHAR(255),
     sede VARCHAR(100)
 );

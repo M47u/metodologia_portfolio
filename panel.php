@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['usuario'])) {
-  header("Location: ./index.html"); // Redirige si no está logueado
+  header("Location: ./index.php"); // Redirige si no está logueado
   exit;
 }
 

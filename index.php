@@ -48,7 +48,7 @@ if ($resultado->num_rows > 0) {
 
   <!-- encabezado -->
   <header>
-        <a href="index.html" class="logo"><i class="fab fa-node-js"></i> Benjamin</a>
+        <a href="index.php" class="logo"><i class="fab fa-node-js"></i> Benjamin</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -285,7 +285,7 @@ if ($resultado->num_rows > 0) {
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-    <form action="./login/contacto.php" method="POST">
+    <form action="./login/contacto.php" method="POST" id="contactForm">
       
       <div class="form-group">
         <div class="field">
@@ -309,6 +309,7 @@ if ($resultado->num_rows > 0) {
         <button type="submit">
           Enviar <i class="fa fa-paper-plane"></i></button>
       </div>
+      <div id="mensajeConfirmacion" role="alert"></div>
     </form>
   </div>
   </div>
@@ -388,5 +389,6 @@ if ($resultado->num_rows > 0) {
   <script src="./assets/js/mouse.js"></script>
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/cambiarmodo.js"></script>
+  <script src="./assets/js/mensaje.js"></script>
 </body>
 </html>
