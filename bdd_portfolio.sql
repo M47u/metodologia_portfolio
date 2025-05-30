@@ -33,3 +33,6 @@ INSERT INTO mensajes VALUES
 (4,'Belen','bel@gmail.com','3704000004','Espero respuesta','2025-05-24 08:37:54'),
 (5,'Lujan Villalba','lu@gmail.com','3704000005','Espero poder trabajar con usted','2025-05-24 17:03:51'),
 (6,'Pablo Rios','pablo@gmail.com','3704000006','Quisiera un presupuesto','2025-05-24 17:05:15');
+
+INSERT INTO informacion_personal(descripcion, correo_personal, sede) VALUES
+('Programador especializado en crear soluciones digitales completas, desde el diseño de interfaces intuitivas hasta la lógica y la arquitectura que las hace funcionar. Combinando creatividad y funcionalidad para desarrollar plataformas escalables, modernas y fáciles de usar. Me apasiona convertir ideas en experiencias digitales reales, limpias y accesibles.', 'benjamingz@gmail.com', 'Formosa,Argentina');

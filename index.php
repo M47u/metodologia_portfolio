@@ -105,7 +105,7 @@ if ($resultado->num_rows > 0) {
         <h3>Soy Benjamin</h3>
         <span class="tag"> Desarrollador web</span>
         <!-- la siguiente linea es para incrustar un parrafo  que es le resultado de una consulta sql-->
-        <p>Nombre del cliente: <?php echo htmlspecialchars($descripcion); ?></p>
+        <p><?php echo htmlspecialchars($descripcion); ?></p>
         <!-- <p>Programador especializado en crear soluciones digitales completas, desde el diseño de interfaces intuitivas hasta la lógica y la arquitectura que las hace funcionar. Combinando creatividad y funcionalidad para desarrollar plataformas escalables, modernas y fáciles de usar. Me apasiona convertir ideas en experiencias digitales reales, limpias y accesibles. </p> -->
         
         <div class="box-container">
