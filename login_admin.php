@@ -23,12 +23,12 @@
 
   <!-- encabezado -->
   <header>
-        <a href="index.html" class="logo"><i class="fab fa-node-js"></i> Benjamin</a>
+        <a href="index.php" class="logo"><i class="fab fa-node-js"></i> Benjamin</a>
  
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
-            <li><a href="index.html">Volver al Portfolio</a></li>
+            <li><a href="index.php">Volver al Portfolio</a></li>
             </ul>
         </nav>
   </header>

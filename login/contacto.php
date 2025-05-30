@@ -16,10 +16,10 @@ $stmt = $conexion->prepare($sql);
 $stmt->bind_param("ssss", $nombre, $email, $telefono, $mensaje);
 
 if ($stmt->execute()) {
-    echo "<script>alert('Mensaje enviado correctamente'); window.location.href = '../index.php';</script>";
-    exit;
+    echo "ok";
 } else {
-    echo "<script>alert('Error al enviar el mensaje');</script>";
+    http_response_code(500);
+    echo "error";
 }
  
 $stmt->close();

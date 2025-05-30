@@ -34,7 +34,7 @@
                 
             </form><br>
             <a href="../login/ver_usuarios_db.php" class="btn btn-primary w-100">Ver usuarios registrados 📋</a><br><br>
-            <a href="../index.html" class="btn btn-primary w-100">Ir al Portfolio 💼</a>
+            <a href="../index.php" class="btn btn-primary w-100">Ir al Portfolio 💼</a>
         </div>
     </div>
 
